@@ -1,0 +1,49 @@
+{
+    "profile-description": "Hola, soy un apasionado del código, me dedico a desarrollar software web, poseo habilidades en: HTML, CSS, JavaScript, GitHub, Wordpress; en el backend: Firebase. Poseo habilidades en el diseño visual, y experiencia de usuario: Figma, Adobe XD, Illustrator, Photoshop y más.",
+
+    "subtitle": "Desarrollador Front-End",
+
+    "skills-title": "Desarrollo Front-End",
+    "skills2-title": "Diseño Web",
+
+    "counter-title": "Proyectos (4)",
+
+    "project2-subtitle": "Clínica Med Imbabura",
+    "project3-subtitle": "Portafolio Desarrollador",
+    "project4-subtitle": "Próximamente Página de Ropa Básica",
+
+
+    "project1-text": "La Xbox Series X es la consola inicial de la octava generación de consolas de videojuegos, la cual fue lanzada a finales de 2020 y trae consigo un espectacular hardware.",
+    "project2-text": "Mejorar la salud y la calidad de vida de los ciudadanos, ofertando servicios sanitarios excelentes, con el paciente como centro de nuestra atención, y profesionales cualificados.",
+    "project3-text": "Desarrollador Web Front-end y Diseñador de Interfaces Gráficas apasionado y creativo. Me dedico a la implementación de tecnologías Web: HTML5, CSS, JavaScript, GitHub, Sass, Pug.",
+    "project4-text": "PRÓXIMAMENTE ¡Hola, queridos compradores! Actualmente estamos construyendo nuestra nueva tienda de moda. Agregue su correo electrónico a continuación para anuncios y ofertas.",
+
+    "button-ghost": "Código",
+
+
+    "experiences-title": "Experiencias",
+
+    "experience-job": "Desarrollador/ Vendedor",
+    "experience-description": "Brindando soluciones musicales integrales. Servicio al cliente.",
+
+    "experience2-job": "Desarrollador Frontend",
+    "experience2-description": "Optimiza la relación Consumidor y mejora de experiencia del usuario.",
+
+    "experience3-job": "Diseñador Web UI",
+    "experience3-description": "Estudio de diseño online, soluciones digitales.",
+
+
+    "hobbie-title": "Ciclismo",
+    "hobbie-description": "Me encanta viajar, escalar las montañas.",
+
+    "hobbie2-title": "Videojuegos",
+    "hobbie2-description": "Para relajarse, una tarde de juegos con deliciosos snacks.",
+
+    "hobbie3-title": "Guitarra Eléctrica",
+    "hobbie3-description": "En mi tiempo libre aprendo escalas, disfruto el rock progresivo.",
+
+
+    "footer-description": "Desarrollo Web / Diseño Web UI",
+    "footer-copy": "Diseñado y codificado por: Darwin Sánchez © 2021"
+
+}

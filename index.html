@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Darwin Sánchez | FRONT-End</title>
+</head>
+
+
+
+<body class="dark">
+
+<!-- HEADER -->
+    <header class="header">
+
+        <!-- SWITCHES -->
+        <div class="switches">
+
+        <!-- TOGGLE THEME -->
+            <div id="toggle-theme" class="toggle-theme">
+                <i id="toggle-icon" class="far fa-sun toggle-theme__icon"></i>
+                <p id="toggle-text" class="toggle-theme__text">Light Mode</p>
+            </div>
+
+        <!-- TOGGLE COLOR -->
+            <div id="toggle-color" class="toggle-color">
+                <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+                <div data-color="hsl(275, 84%, 56%)" class="colors__item colors__item--purple"></div>
+                <div data-color="hsl(24, 97%, 57%)" class="colors__item colors__item--orange"></div>
+            </div>
+
+        <!-- MULTI-LANGUAGE -->
+            <div id="lang-buttons" class="lang-buttons">
+                <button data-language="es" class="lang-button">ES</button>
+                <button data-language="en" class="lang-button">EN</button>
+            </div>
+        </div>
+
+
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="#">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
+        </div>
+    </header>
+
+
+
+<!-- MAIN -->
+    <main class="main">
+
+    <!-- PROFILE CARD -->
+        <div class="card-profile">
+            <div class="card-profile__image-container">
+                <img src="assets/images/darwin.png" class="card-profile__image" alt="profile">
+            </div>
+            <h1 class="title">Darwin Sánchez</h1>
+            <p data-value="subtitle" class="subtitle">Desarrollador Front-End</p>
+            <div class="card-profile__info">
+                <div class="card-profile__link">
+                    <i class="fas fa-envelope icon"></i>
+                    <a href="mailto:darwinsanchez9018@gmail.com" class="card-profile__links">darwinsanchez9018@gmail.com</a>
+                </div>
+    
+                <div class="card-profile__link">
+                    <i class="fas fa-phone-alt icon"></i>
+                    <a href="tel:+593995086715" class="card-profile__links">(+593) 995 086 715</a>
+                </div>
+            </div>
+            <div data-value="profile-description" class="card-profile__description">
+                Hola, soy un apasionado del código, me dedico a desarrollar software web, poseo habilidades en: HTML, CSS, JavaScript, GitHub, Wordpress; en el backend: Firebase. Poseo habilidades en el diseño visual, y experiencia de usuario: Figma, Adobe XD, Illustrator, Photoshop y más.
+            </div>
+        </div>
+
+
+
+    <!-- SKILLS CARD -->
+        <div class="skills">
+            <h2 data-value="skills-title" class="skills__title">Desarrollo Front-End</h2>
+            <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">JavaScript</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">Git/GitHub</p>
+                <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">FireBase</p>
+                <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">Sass</p>
+                <div class="skills__bar skills__bar--60"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2 data-value="skills2-title" class="skills__title">Diseño Web</h2>
+            <div class="skills__item">
+                <p class="skills__tech">Figma</p>
+                <div class="skills__bar skills__bar--65"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">Adobe XD</p>
+                <div class="skills__bar skills__bar--55"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">Photoshop</p>
+                <div class="skills__bar skills__bar--85"></div>
+            </div>
+            <div class="skills__item">
+                <p class="skills__tech">Illustrator</p>
+                <div class="skills__bar skills__bar--95"></div>
+            </div>
+        </div>
+
+
+
+    <!-- PROJECT CARD -->
+        <div class="counter-project">
+            <h2 data-value="counter-title" class="counter-project__title">Proyectos (4)</h2>
+        </div>
+
+        <div class="project project-1">
+            <img src="assets/images/project1.png" class="project__img" alt="project1">
+            <div class="project__info">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JavaScript</span>
+                    <span class="project__tag">#Responsive</span>
+                </div>
+    
+                <h2 class="project__title">Landing Page</h2>
+                <h3 class="project__subtitle">XBox Series X</h3>
+                <p data-value="project1-text" class="project__text">
+                    La Xbox Series X es la consola inicial de la octava generación de consolas de videojuegos, la cual fue lanzada a finales de 2020 y trae consigo un espectacular hardware.
+                </p>
+                <div class="buttons">
+                    <a href="https://darwinsanchez9018.github.io/Xbox-series-X/" target="blank" class="button button--primary">Demo</a>
+                    <a data-value="button-ghost" href="https://github.com/darwinsanchez9018/Xbox-series-X" target="blank" class="button button--primary-ghost">Código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-2">
+            <img src="assets/images/project2.png" class="project__img" alt="project2">
+            <div class="project__info">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JavaScript</span>
+                    <span class="project__tag">#Responsive</span>
+                </div>
+    
+                <h2 class="project__title">Landing Page</h2>
+                <h3 data-value="project2-subtitle" class="project__subtitle">Clínica Med Imbabura</h3>
+                <p data-value="project2-text" class="project__text">
+                    Mejorar la salud y la calidad de vida de los ciudadanos, ofertando servicios sanitarios excelentes, con el paciente como centro de nuestra atención, y profesionales cualificados.
+                </p>
+                <div class="buttons">
+                    <a href="https://darwinsanchez9018.github.io/WEB-Hospital-Med" class="button button--primary" target="blank">Demo</a>
+                    <a data-value="button-ghost" href="https://github.com/darwinsanchez9018/WEB-Hospital-Med" class="button button--primary-ghost" target="blank">Código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-3">
+            <img src="assets/images/project3.png" class="project__img" alt="project3">
+            <div class="project__info">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JavaScript</span>
+                    <span class="project__tag">#Responsive</span>
+                </div>
+    
+                <h2 class="project__title">Personal Web</h2>
+                <h3 data-value="project3-subtitle" class="project__subtitle">Portafolio Desarrollador</h3>
+                <p data-value="project3-text" class="project__text">
+                    Desarrollador Web Front-end y Diseñador de Interfaces Gráficas apasionado y creativo. Me dedico a la implementación de tecnologías Web: HTML5, CSS, JavaScript, GitHub, Sass, Pug.
+                </p>
+                <div class="buttons">
+                    <a href="https://darwinsanchez9018.github.io/WEB-PERSONAL" class="button button--primary" target="blank">Demo</a>
+                    <a data-value="button-ghost" href="https://github.com/darwinsanchez9018/WEB-PERSONAL" class="button button--primary-ghost" target="blank">Código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-4">
+            <img src="assets/images/project4.jpg" class="project__img" alt="project4">
+            <div class="project__info">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JavaScript</span>
+                    <span class="project__tag">#Responsive</span>
+                </div>
+    
+                <h2 class="project__title">Login</h2>
+                <h3 data-value="project4-subtitle" class="project__subtitle">Próximamente Página de Ropa Básica</h3>
+                <p data-value="project4-text" class="project__text">
+                    PRÓXIMAMENTE ¡Hola, queridos compradores! Actualmente estamos construyendo nuestra nueva tienda de moda. Agregue su correo electrónico a continuación para anuncios y ofertas.
+                </p>
+                <div class="buttons">
+                    <a href="https://darwinsanchez9018.github.io/Base-Apparel-comming-page" class="button button--primary" target="blank">Demo</a>
+                    <a data-value="button-ghost" href="https://github.com/darwinsanchez9018/Base-Apparel-comming-page" class="button button--primary-ghost" target="blank">Código</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!-- EXPERIENCE CARD -->
+        <div class="experiences">
+            <h2 data-value="experiences-title" class="experiences-title">Experiencias</h2>
+            <div class="experience">
+                <img src="assets/images/experience1.jpg" alt="la-lira" class="experience__img">
+                <div class="experience__info">
+                    <p class="experience__time">Feb 2018 - 2020</p>
+                    <h3 data-value="experience-job" class="experience__job">Desarrollador/ Vendedor</h3>
+                    <p data-value="experience-description" class="experience__description">Brindando soluciones musicales integrales. Servicio al cliente.</p>
+                </div>
+            </div>
+    
+            <div class="experience">
+                <img src="assets/images/experience2.png" alt="claro" class="experience__img">
+                <div class="experience__info">
+                    <p class="experience__time">Nov 2019 - 2020</p>
+                    <h3 data-value="experience2-job" class="experience__job">Desarrollador Frontend</h3>
+                    <p data-value="experience2-description" class="experience__description">Optimiza la relación Consumidor y mejora de experiencia del usuario.</p>
+                </div>
+            </div>
+    
+            <div class="experience">
+                <img src="assets/images/experience3.jpg" alt="dodecaedrus" class="experience__img">
+                <div class="experience__info">
+                    <p class="experience__time">Mar 2020 - Presente</p>
+                    <h3 data-value="experience3-job" class="experience__job">Diseñador Web UI</h3>
+                    <p data-value="experience3-description" class="experience__description">Estudio de diseño online, soluciones digitales.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- HOBBIES CARD -->
+        <div class="hobbies">
+            <div class="hobbie">
+                <div class="hobbie__img-container">
+                    <img src="assets/images/hobbie1.jpg" alt="bicicleta" class="hobbie__img">
+                </div>
+                <h2 data-value="hobbie-title" class="hobbie__title">Ciclismo</h2>
+                <p data-value="hobbie-description" class="hobbie__description">Me encanta viajar, escalar las montañas.</p>
+            </div>
+
+            <div class="hobbie">
+                <div class="hobbie__img-container">
+                    <img src="assets/images/hobbie2.jpg" alt="videojuegos" class="hobbie__img">
+                </div>
+                <h2 data-value="hobbie2-title" class="hobbie__title">Videojuegos</h2>
+                <p data-value="hobbie2-description" class="hobbie__description">Para relajarse, una tarde de juegos con deliciosos snacks.</p>
+            </div>
+
+            <div class="hobbie">
+                <div class="hobbie__img-container">
+                    <img src="assets/images/hobbie3.jpg" alt="musica" class="hobbie__img">
+                </div>
+                <h2 data-value="hobbie3-title" class="hobbie__title">Guitarra Eléctrica</h2>
+                <p data-value="hobbie2-description" class="hobbie__description">En mi tiempo libre aprendo escalas, disfruto el rock progresivo.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="https://darwinsanchez9018.github.io/WEB-PERSONAL" target="blank">
+                <img src="assets/images/logo.png" alt="logo" class="footer__logo">
+            </a>
+            <h3 data-value="footer-description" class="footer__description">Desarrollo Web / <br>Diseño Web UI</h3>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/darwin-s%C3%A1nchez-bb4b12211" class="footer__link" target="blank">
+                    <i class="fab fa-linkedin footer__icon"></i>
+                </a>
+                <a href="https://github.com/darwinsanchez9018" class="footer__link" target="blank">
+                    <i class="fab fa-github footer__icon"></i>
+                </a>
+                <a href="https://www.instagram.com/darwinsanchezdev" class="footer__link" target="blank">
+                    <i class="fab fa-instagram footer__icon"></i>
+                </a>
+                <a href="https://twitter.com/dsanchez9018" class="footer__link" target="blank">
+                    <i class="fab fa-twitter footer__icon"></i>
+                </a>
+            </div>
+            <p data-value="footer-copy" class="footer__copy">
+                Diseñado y codificado por: Darwin Sánchez &#169 2021
+            </p>
+        </div>
+    </footer>
+
+
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/a0ab449b77.js" crossorigin="anonymous"></script>
+
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

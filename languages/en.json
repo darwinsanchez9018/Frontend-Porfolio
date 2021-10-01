@@ -1,0 +1,49 @@
+{
+    "profile-description": "Hello, I am passionate about code, I am dedicated to developing web software, I have skills in: HTML, CSS, JavaScript, GitHub, Wordpress; on the backend: Firebase. I have skills in visual design, and user experience: Figma, Adobe XD, Illustrator, Photoshop and more.",
+
+    "subtitle": "Front-End Developer",
+
+    "skills-title": "Front-End Development",
+    "skills2-title": "Web Design",
+
+    "counter-title": "Projects (4)",
+
+    "project2-subtitle": "Med Imbabura Clinic",
+    "project3-subtitle": "Developer Portfolio",
+    "project4-subtitle": "Base Apparel Coming soon Page",
+
+
+    "project1-text": "The Xbox Series X is the initial console of the eighth generation of video game consoles, which was released in late 2020 and brings with it spectacular hardware.",
+    "project2-text": "Improve the health and quality of life of citizens, offering excellent health services, with the patient as the center of our care, and qualified professionals.",
+    "project3-text": "Passionate and creative Front-end Web Developer and Graphic Interface Designer. I am dedicated to the implementation of Web technologies: HTML5, CSS, JavaScript, GitHub, Sass, Pug.",
+    "project4-text": "WE'RE COMING SOON. Hello fellow shoppers! We're currently building our new fashion store. Add your email below to announcements and deals.",
+
+    "button-ghost": "Code",
+
+
+    "experiences-title": "Experiences",
+
+    "experience-job": "Developer/ Seller",
+    "experience-description": "Providing comprehensive musical solutions. Customer service.",
+
+    "experience2-job": "Frontend Developer",
+    "experience2-description": "Optimize the Consumer relationship and improve the user experience.",
+
+    "experience3-job": "Web UI Designer",
+    "experience3-description": "Online Design Studio, digital solutions.",
+
+
+    "hobbie-title": "Cycling",
+    "hobbie-description": "I love traveling, climbing the mountains.",
+
+    "hobbie2-title": "Video Games",
+    "hobbie2-description": "To relax, an afternoon of games with delicious snacks.",
+
+    "hobbie3-title": "Electric Guitar",
+    "hobbie3-description": "I learn scales in my free time; I enjoy progressive rock.",
+
+
+    "footer-description": "Web Development / Web UI Design",
+    "footer-copy": "Designed and Coded by: Darwin Sánchez © 2021"
+
+}
