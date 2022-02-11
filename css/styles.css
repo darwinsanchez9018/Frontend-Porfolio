@@ -205,9 +205,7 @@ a {
     height: inherit;
     display: block;
     object-fit: cover;
-    object-position: 0 -60px;
-    background-color: var(--primary-color);
-    transition: var(--transition);
+    object-position: 0 -40px;
 }
 
 .title {
